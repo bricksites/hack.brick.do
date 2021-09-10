@@ -1,0 +1,54 @@
+.CustomHeader {
+    position: absolute;
+    top: 0; right: 0; left: 0; 
+       /* margin-left: -1rem; */
+    z-index: 1000;
+    /* padding: 0 1rem; */
+    /* width: 100%;  */
+    height: 60px; 
+    background: white;
+    border-bottom: solid 1px #e7e7e7; 
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.CustomHeader .CustomHeader-block {
+    display: table;
+    width: 100%;
+    height: inherit;
+}
+.CustomHeader .CustomHeader-block .CustomHeader-block-cell {
+    display: table-cell;
+    vertical-align: middle;
+    width: auto;
+    height: inherit;
+}
+.CustomHeader .CustomHeader-block .CustomHeader-block-cell.cell-logo {
+    padding-left: 1rem;
+}
+.CustomHeader .CustomHeader-block .CustomHeader-block-cell.cell-navigation {
+    padding-right: 1rem;
+}
+.CustomHeader .CustomHeader-block .CustomHeader-block-cell ul {
+    float: right;
+}
+.CustomHeader .CustomHeader-block .CustomHeader-block-cell ul::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+header.navigation-header {
+    margin-top: 60px;
+}
+.page-container {
+
+}
+.page-container.page-container_sidebar-open {
+
+}
+.page-container.page-container_sidebar-open .CustomHeader .CustomHeader-block .CustomHeader-block-cell.cell-logo .cell-inner {
+    padding-left: 240px
+}
+footer {
+    display: none !important;
+}
